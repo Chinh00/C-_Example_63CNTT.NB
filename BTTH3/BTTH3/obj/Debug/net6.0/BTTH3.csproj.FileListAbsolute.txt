@@ -1,0 +1,15 @@
+E:\C#\BTTH3\BTTH3\bin\Debug\net6.0\BTTH3.exe
+E:\C#\BTTH3\BTTH3\bin\Debug\net6.0\BTTH3.deps.json
+E:\C#\BTTH3\BTTH3\bin\Debug\net6.0\BTTH3.runtimeconfig.json
+E:\C#\BTTH3\BTTH3\bin\Debug\net6.0\BTTH3.dll
+E:\C#\BTTH3\BTTH3\bin\Debug\net6.0\BTTH3.pdb
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\BTTH3.csproj.AssemblyReference.cache
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\BTTH3.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\BTTH3.AssemblyInfoInputs.cache
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\BTTH3.AssemblyInfo.cs
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\BTTH3.csproj.CoreCompileInputs.cache
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\BTTH3.dll
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\refint\BTTH3.dll
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\BTTH3.pdb
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\BTTH3.genruntimeconfig.cache
+E:\C#\BTTH3\BTTH3\obj\Debug\net6.0\ref\BTTH3.dll

@@ -1,0 +1,15 @@
+E:\C#\BTTHC#\BTTH2\bin\Debug\net7.0\BTTH2.exe
+E:\C#\BTTHC#\BTTH2\bin\Debug\net7.0\BTTH2.deps.json
+E:\C#\BTTHC#\BTTH2\bin\Debug\net7.0\BTTH2.runtimeconfig.json
+E:\C#\BTTHC#\BTTH2\bin\Debug\net7.0\BTTH2.dll
+E:\C#\BTTHC#\BTTH2\bin\Debug\net7.0\BTTH2.pdb
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\BTTH2.csproj.AssemblyReference.cache
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\BTTH2.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\BTTH2.AssemblyInfoInputs.cache
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\BTTH2.AssemblyInfo.cs
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\BTTH2.csproj.CoreCompileInputs.cache
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\BTTH2.dll
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\refint\BTTH2.dll
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\BTTH2.pdb
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\BTTH2.genruntimeconfig.cache
+E:\C#\BTTHC#\BTTH2\obj\Debug\net7.0\ref\BTTH2.dll

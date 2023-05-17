@@ -1,0 +1,17 @@
+E:\C#\C#_Example\Bai3\bin\Debug\net6.0-windows\Bai3.exe
+E:\C#\C#_Example\Bai3\bin\Debug\net6.0-windows\Bai3.deps.json
+E:\C#\C#_Example\Bai3\bin\Debug\net6.0-windows\Bai3.runtimeconfig.json
+E:\C#\C#_Example\Bai3\bin\Debug\net6.0-windows\Bai3.dll
+E:\C#\C#_Example\Bai3\bin\Debug\net6.0-windows\Bai3.pdb
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.csproj.AssemblyReference.cache
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.Form1.resources
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.csproj.GenerateResource.cache
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.AssemblyInfoInputs.cache
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.AssemblyInfo.cs
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.csproj.CoreCompileInputs.cache
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.dll
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\refint\Bai3.dll
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.pdb
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\Bai3.genruntimeconfig.cache
+E:\C#\C#_Example\Bai3\obj\Debug\net6.0-windows\ref\Bai3.dll
