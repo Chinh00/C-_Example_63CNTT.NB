@@ -1,0 +1,17 @@
+E:\C#\BTTHC#\BTTH4\Bai7\bin\Debug\net6.0-windows\Bai7.exe
+E:\C#\BTTHC#\BTTH4\Bai7\bin\Debug\net6.0-windows\Bai7.deps.json
+E:\C#\BTTHC#\BTTH4\Bai7\bin\Debug\net6.0-windows\Bai7.runtimeconfig.json
+E:\C#\BTTHC#\BTTH4\Bai7\bin\Debug\net6.0-windows\Bai7.dll
+E:\C#\BTTHC#\BTTH4\Bai7\bin\Debug\net6.0-windows\Bai7.pdb
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.csproj.AssemblyReference.cache
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.Form1.resources
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.csproj.GenerateResource.cache
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.AssemblyInfoInputs.cache
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.AssemblyInfo.cs
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.csproj.CoreCompileInputs.cache
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.dll
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\refint\Bai7.dll
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.pdb
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\Bai7.genruntimeconfig.cache
+E:\C#\BTTHC#\BTTH4\Bai7\obj\Debug\net6.0-windows\ref\Bai7.dll
