@@ -30,15 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataSet1 = new Bai2.DataSet1();
-            this.sinhVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sinhVienTableAdapter = new Bai2.DataSet1TableAdapters.SinhVienTableAdapter();
             this.maSvDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hoSvDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenSvDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ngaySinhDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gioiTinhDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maKhoaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sinhVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSet1 = new Bai2.DataSet1();
+            this.sinhVienTableAdapter = new Bai2.DataSet1TableAdapters.SinhVienTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMasv = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -58,8 +58,8 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sinhVienBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -83,20 +83,7 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1063, 271);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // dataSet1
-            // 
-            this.dataSet1.DataSetName = "DataSet1";
-            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // sinhVienBindingSource
-            // 
-            this.sinhVienBindingSource.DataMember = "SinhVien";
-            this.sinhVienBindingSource.DataSource = this.dataSet1;
-            // 
-            // sinhVienTableAdapter
-            // 
-            this.sinhVienTableAdapter.ClearBeforeFill = true;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // maSvDataGridViewTextBoxColumn
             // 
@@ -133,6 +120,20 @@
             this.maKhoaDataGridViewTextBoxColumn.DataPropertyName = "MaKhoa";
             this.maKhoaDataGridViewTextBoxColumn.HeaderText = "MaKhoa";
             this.maKhoaDataGridViewTextBoxColumn.Name = "maKhoaDataGridViewTextBoxColumn";
+            // 
+            // sinhVienBindingSource
+            // 
+            this.sinhVienBindingSource.DataMember = "SinhVien";
+            this.sinhVienBindingSource.DataSource = this.dataSet1;
+            // 
+            // dataSet1
+            // 
+            this.dataSet1.DataSetName = "DataSet1";
+            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // sinhVienTableAdapter
+            // 
+            this.sinhVienTableAdapter.ClearBeforeFill = true;
             // 
             // label1
             // 
@@ -321,8 +322,8 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sinhVienBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
