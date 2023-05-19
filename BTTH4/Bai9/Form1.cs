@@ -1,5 +1,4 @@
-﻿using System.CodeDom;
-using System.Globalization;
+﻿
 
 namespace Bai9
 {
@@ -14,15 +13,16 @@ namespace Bai9
         private void Form1_Load(object sender, EventArgs e)
         {
             textBox4.Hide();
-
+            
             DateTimePicker dateTimePicker = new DateTimePicker();
 
-            dateTimePicker.Value = DateTime.Now;
+            dateTimePicker.Value = DateTime.Today;
+
             staffs.AddLast(new Staff()
             {
                 id = 0,
                 name = "abc",
-                date = dateTimePicker,
+                date = DateTime.Parse("2017-02-03").ToString("yyyy-M-d"),
                 address = "abc",
                 phone = "abc",
             });
@@ -30,19 +30,18 @@ namespace Bai9
             {
                 id = 1,
                 name = "abcdkfhsdu",
-                date = dateTimePicker,
+                date = DateTime.Parse("2017-02-03").ToString("yyyy-M-d"),
                 address = "abcsd sd",
                 phone = "sdfsdf",
             });
 
             foreach (Staff staff in staffs)
             {
-                ListViewItem item = new ListViewItem(new string[] { staff.name, staff.date.Value.ToString(), staff.address, staff.phone });
+                ListViewItem item = new ListViewItem(new string[] { staff.name, staff.date, staff.address, staff.phone });
 
                 listView1.Items.Add(item);
-
-
             }
+            textBox1.Text = textBox2.Text = textBox3.Text = string.Empty;
 
         }
 
@@ -67,21 +66,21 @@ namespace Bai9
                 {
                     id = staffs.Count + 1,
                     name = textBox1.Text,
-                    date = dateTimePicker1,
+                    date = dateTimePicker1.Value.ToString("yyyy-M-d"),
                     address = textBox2.Text,
                     phone = textBox3.Text,
                 });
                 listView1.Items.Clear();
                 foreach (Staff staff in staffs)
                 {
-                    ListViewItem item = new ListViewItem(new string[] { staff.name, staff.date.Value.ToString(), staff.address, staff.phone });
+                    ListViewItem item = new ListViewItem(new string[] { staff.name, staff.date, staff.address, staff.phone });
 
                     listView1.Items.Add(item);
 
 
                 }
                 MessageBox.Show("Thêm thành công");
-                textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = string.Empty;
+                textBox1.Text = textBox2.Text = textBox3.Text = string.Empty;
 
 
             }
@@ -94,10 +93,10 @@ namespace Bai9
                 var rectangle = listView1.GetItemRect(i);
                 if (rectangle.Contains(e.Location))
                 {
-                    var staff = staffs.ElementAt(i);
+                    var staff = staffs.Where(e => e.name == listView1.Items[i].Text).FirstOrDefault();
                     textBox4.Text = staff.id.ToString();
                     textBox1.Text = staff.name.ToString();
-                    dateTimePicker1 = staff.date;
+                    dateTimePicker1.Value = DateTime.Parse(staff.date);
                     textBox2.Text = staff.address.ToString();
                     textBox3.Text = staff.phone.ToString();
 
@@ -117,14 +116,14 @@ namespace Bai9
                     listView1.Items.Clear();
                     foreach (Staff staff in staffs)
                     {
-                        ListViewItem item = new ListViewItem(new string[] { staff.name, staff.date.Value.ToString(), staff.address, staff.phone });
+                        ListViewItem item = new ListViewItem(new string[] { staff.name, staff.date, staff.address, staff.phone });
 
                         listView1.Items.Add(item);
 
 
                     }
-                    textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = string.Empty;
                     MessageBox.Show("Remove successfully");
+
                 }
                 else
                 {
@@ -146,27 +145,31 @@ namespace Bai9
         {
             if (textBox4.Text != string.Empty)
             {
+
                 var id = Convert.ToInt32(textBox4.Text);
                 var _s = staffs.Where(e => e.id == id).FirstOrDefault();
-                if (_s != null) {
+                if (_s != null)
+                {
                     _s.name = textBox1.Text;
+                    _s.date = dateTimePicker1.Value.ToString("yyyy-M-d");
                     _s.address = textBox2.Text;
                     _s.phone = textBox3.Text;
-                    _s.date = dateTimePicker1;
+                    
                 }
 
                 listView1.Items.Clear();
                 foreach (Staff staff in staffs)
                 {
-                    ListViewItem item = new ListViewItem(new string[] { staff.name, staff.date.Value.ToString(), staff.address, staff.phone });
+                    ListViewItem item = new ListViewItem(new string[] { staff.name, staff.date, staff.address, staff.phone });
 
                     listView1.Items.Add(item);
 
 
                 }
                 MessageBox.Show("Sửa thành công");
+                textBox1.Text = textBox2.Text = textBox3.Text = string.Empty;
 
-                textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = string.Empty;
+
 
             }
             else

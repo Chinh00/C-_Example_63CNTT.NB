@@ -10,7 +10,7 @@ namespace Bai9
     {
         public int id { get; set; }
         public string name { get; set; }
-        public DateTimePicker date { get; set; }
+        public string date { get; set; }
 
         public string address { get; set; }
         public string phone { get; set; }
